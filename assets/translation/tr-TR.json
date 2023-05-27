@@ -4,7 +4,8 @@
         "homePage": "Anasayfa",
         "notFoundPage": "Sayfa Bulunamadı",
         "fragmanTrue": "Fragman İzle",
-        "fragmanFalse": "Fragman Yok"
+        "fragmanFalse": "Fragman Yok",
+        "popularFilmListTitle": "Popüler Filmler"
 
     }
 }

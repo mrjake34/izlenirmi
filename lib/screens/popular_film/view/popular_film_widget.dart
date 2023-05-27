@@ -23,8 +23,22 @@ class PopularFilmsBuilder extends StatelessWidget {
         int currentPage = state.popularFilmModel?.page ?? 1;
         return Column(
           children: [
+            const SizedBox(
+              height: 5,
+            ),
+            Row(
+              children: [
+                const SizedBox(
+                  width: 5,
+                ),
+                Text(LocaleKeys.mainText_popularFilmListTitle.tr()),
+              ],
+            ),
+            Divider(
+              color: Theme.of(context).colorScheme.primary,
+            ),
             SizedBox(
-              height: 450,
+              height: 430,
               child: BlocBuilder<PopularFilmsBloc, PopularFilmsState>(
                 builder: (context, state) {
                   if (state.status == Status.failed) {

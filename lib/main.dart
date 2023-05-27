@@ -10,7 +10,7 @@ import 'package:izlenirmi/theme/theme_dark.dart';
 import 'package:izlenirmi/theme/theme_light.dart';
 
 import 'base/service/navigation/navigation_route.dart';
-import 'screens/home_page/popular_film/bloc/popular_films_bloc.dart';
+import 'screens/popular_film/bloc/popular_films_bloc.dart';
 
 void main() {
   runApp(EasyLocalization(
