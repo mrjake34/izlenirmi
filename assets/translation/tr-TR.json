@@ -1,0 +1,10 @@
+{
+    "mainText": {
+        "title": "İzlenir mi?",
+        "homePage": "Anasayfa",
+        "notFoundPage": "Sayfa Bulunamadı",
+        "fragmanTrue": "Fragman İzle",
+        "fragmanFalse": "Fragman Yok"
+
+    }
+}
