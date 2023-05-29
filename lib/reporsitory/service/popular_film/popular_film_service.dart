@@ -1,6 +1,7 @@
 import 'dart:io';
 
 import 'package:dio/dio.dart';
+import 'package:izlenirmi/constants/enums/network.dart';
 import 'package:izlenirmi/constants/network/network.dart';
 import 'package:izlenirmi/reporsitory/service/popular_film/popular_film_sevice_interface.dart';
 
@@ -11,7 +12,7 @@ class PopularFilmsService extends IPopularFilmService {
   @override
   Future<PopularFilmModel?> fetchFilmList(int page) async {
     final response = await dio.get(
-        "/movie/popular?language=tr-TR&page=$page",
+        "/${NetWorkEnums.movie.name}/${NetWorkEnums.popular.name}?language=tr-TR&page=$page",
         options: Options(method: 'GET', headers: {
           "accept": "application/json",
           "Authorization": "Bearer $token",

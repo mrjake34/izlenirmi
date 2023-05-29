@@ -18,12 +18,10 @@ class PopularFilmsState extends Equatable {
   PopularFilmsState copyWith({
     PopularFilmModel? popularFilmModel,
     Enum? status,
- 
   }) {
     return PopularFilmsState(
       popularFilmModel: popularFilmModel ?? this.popularFilmModel,
       status: status ?? this.status,
- 
     );
   }
 }
