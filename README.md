@@ -1,6 +1,6 @@
 # izlenirmi
 
-A new Flutter project.
+Proje şuan sırada
 
 ## Getting Started
 
